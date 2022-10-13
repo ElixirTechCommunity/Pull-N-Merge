@@ -1,4 +1,7 @@
 ## ✨Session taken by : Anvesh Mishra✨
 
 ## Contributors:
-manupriya 
+vimarsh
+Yash Sharma
+Jai_Singh
+manupriya
