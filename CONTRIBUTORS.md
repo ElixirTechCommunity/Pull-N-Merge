@@ -3,6 +3,7 @@
 ## ✨Session taken by : Vandit Singh✨
 
 ## Contributors:
+Nyasa yadav
 
 # Pull-N-Merge 2022:
 
