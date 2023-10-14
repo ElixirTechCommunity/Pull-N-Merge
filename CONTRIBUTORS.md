@@ -4,6 +4,8 @@
 
 ## Contributors:
 Nyasa yadav
+Shubhankar Gupta
+Aparimit Rathour
 
 # Pull-N-Merge 2022:
 
@@ -19,5 +21,3 @@ Sanskar Dixit
 vishesh-dudeja
 Dipanshu gupta
 mayank yadav
-Shubhankar Gupta
-Aparimit Rathour
