@@ -8,6 +8,7 @@ Shubhankar Gupta
 Aparimit Rathour
 
 # Pull-N-Merge 2022:
+yagyansh choudhary
 
 ## ✨Session taken by : Anvesh Mishra✨
 
