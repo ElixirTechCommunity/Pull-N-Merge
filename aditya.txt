@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSearch - Discover Sustainable Products</title>
+    <link rel="stylesheet" href="prototype4.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Welcome to EcoSearch</h1>
+            <nav>
+                <ul>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#education">Educational Content</a></li>
+                    <li><a href="#brands">Brand Spotlights</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#user-activities">User Activities</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search eco-products...">
+                <button>Search</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Side Menu -->
+    <div class="side-menu" id="side-menu">
+        <button id="menu-toggle">☰</button>
+        <ul id="side-menu-list">
+            <li><a href="#products">Explore Products</a></li>
+            <li><a href="#education">Learn Sustainability</a></li>
+            <li><a href="#brands">Top Brands</a></li>
+            <li><a href="#about">About EcoSearch</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Login Section -->
+        <section id="login">
+            <h2>Login</h2>
+            <div class="login-form">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Login</button>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products">
+            <h2>Eco-Friendly Products</h2>
+            <p>Explore a wide range of eco-friendly products across various categories:</p>
+            <div class="product-categories">
+                <a href="#fashion" class="category-card">
+                    <img src="fashion.jpg" alt="Fashion">
+                    <h3>Fashion</h3>
+                </a>
+                <a href="#electronics" class="category-card">
+                    <img src="electronics.jpg" alt="Electronics">
+                    <h3>Electronics</h3>
+                </a>
+                <a href="#food" class="category-card">
+                    <img src="food.jpg" alt="Food">
+                    <h3>Food</h3>
+                </a>
+                <a href="#home-goods" class="category-card">
+                    <img src="home-goods.jpg" alt="Home Goods">
+                    <h3>Home Goods</h3>
+                </a>
+            </div>
+
+            <!-- Fashion Category -->
+            <div class="category-details" id="fashion">
+                <h3>Fashion</h3>
+                <p>Discover sustainable fashion brands that prioritize eco-friendly materials and ethical practices.</p>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="product1.jpg" alt="Organic Cotton T-Shirt">
+                        <h4>Organic Cotton T-Shirt</h4>
+                        <p>$25.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product2.jpg" alt="Bamboo Socks">
+                        <h4>Bamboo Socks</h4>
+                        <p>$12.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product3.jpg" alt="Recycled Polyester Jacket">
+                        <h4>Recycled Polyester Jacket</h4>
+                        <p>$79.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product4.jpg" alt="Hemp Backpack">
+                        <h4>Hemp Backpack</h4>
+                        <p>$49.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Electronics Category -->
+            <div class="category-details" id="electronics">
+                <h3>Electronics</h3>
+                <p>Browse electronics that are energy-efficient and made with sustainable materials.</p>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="product5.jpg" alt="Solar Powered Charger">
+                        <h4>Solar Powered Charger</h4>
+                        <p>$29.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product6.jpg" alt="Energy Efficient LED Bulbs">
+                        <h4>Energy Efficient LED Bulbs</h4>
+                        <p>$19.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product7.jpg" alt="Eco-Friendly Phone Case">
+                        <h4>Eco-Friendly Phone Case</h4>
+                        <p>$15.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product8.jpg" alt="Recycled Plastic Laptop Stand">
+                        <h4>Recycled Plastic Laptop Stand</h4>
+                        <p>$34.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Food Category -->
+            <div class="category-details" id="food">
+                <h3>Food</h3>
+                <p>Shop organic and sustainably sourced food products.</p>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="product9.jpg" alt="Organic Quinoa">
+                        <h4>Organic Quinoa</h4>
+                        <p>$8.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product10.jpg" alt="Fair Trade Coffee">
+                        <h4>Fair Trade Coffee</h4>
+                        <p>$12.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product11.jpg" alt="Vegan Protein Powder">
+                        <h4>Vegan Protein Powder</h4>
+                        <p>$24.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product12.jpg" alt="Plant-Based Snacks">
+                        <h4>Plant-Based Snacks</h4>
+                        <p>$5.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Home Goods Category -->
+            <div class="category-details" id="home-goods">
+                <h3>Home Goods</h3>
+                <p>Upgrade your home with eco-friendly home goods and appliances.</p>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="product13.jpg" alt="Recycled Glassware Set">
+                        <h4>Recycled Glassware Set</h4>
+                        <p>$39.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product14.jpg" alt="Bamboo Kitchen Utensils">
+                        <h4>Bamboo Kitchen Utensils</h4>
+                        <p>$14.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product15.jpg" alt="Eco-Friendly Detergent">
+                        <h4>Eco-Friendly Detergent</h4>
+                        <p>$9.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="product16.jpg" alt="Compostable Trash Bags">
+                        <h4>Compostable Trash Bags</h4>
+                        <p>$7.99</p>
+                        <button class="buy-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Educational Content Section -->
+        <section id="education">
+            <h2>Educational Content</h2>
+            <div class="education-content">
+                <article>
+                    <h3>What Makes a Product Sustainable?</h3>
+                    <p>Sustainability in products can be measured through eco-friendly materials, energy efficiency, fair labor practices, and waste reduction in production. Learn more about what makes a product truly sustainable.</p>
+                </article>
+                <article>
+                    <h3>The Environmental Impact of Fast Fashion</h3>
+                    <p>Fast fashion contributes significantly to pollution, waste, and unethical labor practices. Learn about the alternatives and how you can shop more responsibly in the fashion industry.</p>
+                </article>
+                <article>
+                    <h3>How to Reduce Your Carbon Footprint with Smart Purchases</h3>
+                    <p>Your purchasing decisions can make a difference. Learn how choosing sustainable, energy-efficient products can help reduce your carbon footprint and protect the environment.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Brand Spotlights Section -->
+        <section id="brands">
+            <h2>Brand Spotlights</h2>
+            <div class="brand-grid">
+                <div class="brand-card">
+                    <img src="brand1.jpg" alt="EcoWear">
+                    <h3>EcoWear</h3>
+                    <p>EcoWear is committed to creating fashionable clothing made from recycled materials.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="brand-card">
+                    <img src="brand2.jpg" alt="GreenGadgets">
+                    <h3>GreenGadgets</h3>
+                    <p>GreenGadgets offers energy-efficient tech products with minimal environmental impact.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="brand-card">
+                    <img src="brand3.jpg" alt="Sustainable Living">
+                    <h3>Sustainable Living</h3>
+                    <p>Sustainable Living provides eco-friendly home products for a greener lifestyle.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>EcoSearch is your go-to platform for discovering eco-friendly products and brands that care for the planet. Our mission is to promote sustainability by making it easy for you to find products that align with your values.</p>
+        </section>
+
+        <!-- User Activities Section -->
+        <section id="user-activities">
+            <h2>User Activities</h2>
+            <p>Explore what other users are buying, reviewing, and adding to their wishlists.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EcoSearch. All rights reserved.</p>
+    </footer>
+
+    <script src="prototype4.js"></script>
+</body>
+</html>
